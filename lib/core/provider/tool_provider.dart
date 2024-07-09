@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:tool_shed_tracker/tool_model.dart';
+import 'package:tool_shed_tracker/model/tool_model.dart';
 
 class ToolNotifier extends Notifier<List<Tool>> {
   @override

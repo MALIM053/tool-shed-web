@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:tool_shed_tracker/provider/tool_provider.dart';
-import 'package:tool_shed_tracker/tool_model.dart';
+import 'package:tool_shed_tracker/core/provider/tool_provider.dart';
+import 'package:tool_shed_tracker/model/tool_model.dart';
 
 class NewToolScreen extends ConsumerWidget {
   final _nameController = TextEditingController();

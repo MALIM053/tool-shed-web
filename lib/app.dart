@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tool_shed_tracker/screen/home_screen.dart';
+import 'package:tool_shed_tracker/presentation/Home/home_screen.dart';
 
 class App extends StatelessWidget {
   const App({super.key});

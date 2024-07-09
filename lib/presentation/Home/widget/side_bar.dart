@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:tool_shed_tracker/screen/new_tool_screen.dart';
+import 'package:tool_shed_tracker/presentation/New%20tool/new_tool_screen.dart';
 
 class Sidebar extends ConsumerWidget {
   const Sidebar({super.key});

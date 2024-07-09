@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:tool_shed_tracker/widget/side_bar.dart';
-import 'package:tool_shed_tracker/provider/sidebar_provider.dart';
-import 'package:tool_shed_tracker/widget/tool_list.dart';
+import 'package:tool_shed_tracker/core/provider/sidebar_provider.dart';
+import 'package:tool_shed_tracker/presentation/Home/widget/side_bar.dart';
+import 'widget/tool_list.dart';
+
+
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
